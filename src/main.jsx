@@ -53,7 +53,7 @@ const router = createBrowserRouter([
 
   },
   {
-    path: "/Smile-Makeover-lahore", // Home route
+    path: "/Smile-Makeoveh", // Home route
     element: <SmileMakeoverLandingPage />, // Show App component in the Layout
 
   }, 
@@ -123,7 +123,7 @@ const router = createBrowserRouter([
 
   },
   {
-    path: "/blogs", // Home route
+    path: "/blogs1", // Home route
     element: <BlogsPage/>, // Show App component in the Layout
 
   },

@@ -52,8 +52,8 @@ const schemaData = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 31.488053563837525,
-    longitude: 74.32627558706596,
+    latitude: 31.488044262388232,
+    longitude: 74.32627496222497,
   },
   openingHoursSpecification: [
     {
@@ -73,7 +73,7 @@ const schemaData = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "87",
+    reviewCount: "31",
     bestRating: "5",
   },
   review: {
@@ -237,7 +237,7 @@ export default function HeroSection() {
 
                 {/* Secondary CTA */}
                 <a
-                  href="tel:+923216739504"
+                  href="tel:+923008444631"
                   className="ml-0 sm:ml-4 border border-white text-white hover:bg-white/20 px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 flex items-center justify-center"
                   aria-label="Call our clinic"
                 >

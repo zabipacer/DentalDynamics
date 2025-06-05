@@ -180,7 +180,7 @@ export default function Testimonials() {
           </motion.div>
 
           <motion.a
-            href="https://wa.me/923216739504"
+            href="https://wa.me/+923008444631"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-block bg-gray-700 text-white font-semibold py-3 px-8 rounded-full hover:bg-gray-800 transition-all duration-300"
@@ -193,46 +193,8 @@ export default function Testimonials() {
           </motion.a>
         </motion.div>
 
-        {/* === Structured Data for SEO === */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "MedicalClinic",
-              name: "Doctor Teeth Dental Clinic",
-              url: "https://doctor-teeth.example.com",
-              logo: "https://doctor-teeth.example.com/logo.png",
-              telephone: "+92-321-6739504",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "123 Main Street",
-                addressLocality: "Faisalabad",
-                postalCode: "38000",
-                addressCountry: "PK",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: "31.4504",
-                longitude: "73.1350",
-              },
-              sameAs: [
-                "https://www.facebook.com/DoctorTeethClinic",
-                "https://www.instagram.com/DoctorTeethClinic",
-              ],
-              review: testimonials.slice(0, 5).map((t) => ({
-                "@type": "Review",
-                author: { "@type": "Person", name: t.name },
-                reviewBody: t.text,
-                reviewRating: {
-                  "@type": "Rating",
-                  ratingValue: "5",
-                  bestRating: "5",
-                },
-              })),
-            }),
-          }}
-        />
+      
+
       </div>
     </section>
   );
