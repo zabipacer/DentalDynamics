@@ -8,126 +8,126 @@ const services = [
     description:
       'Ensure your oral health with our thorough dental exam, including digital X-rays and oral cancer screening. Early detection means healthier smiles.',
     image: '/assets/images/dc.png',
-    link: '/dental-checkup-lahore',
+    link: '/',
   },
   {
     title: 'Scaling & Polishing for Healthy Gums',
     description:
       'Remove plaque and tartar buildup with our ultrasonic cleaning. Prevent gum disease and enjoy a fresh, bright smile that lasts.',
     image: '/assets/images/Scp.png',
-    link: '/scaling-and-polishing-in-lahore',
+    link: '/',
   },
   {
     title: 'Professional Fluoride Treatment',
     description:
       'Strengthen enamel and prevent cavities with our in-office fluoride application. Ideal for children and adults seeking lasting protection.',
     image: '/assets/images/ft.png',
-    link: '/fluoride-treatment-in-lahore',
+    link: '/',
   },
   {
     title: 'LED-Accelerated Teeth Whitening',
     description:
       'Achieve up to 8 shades whiter in under an hour using safe, enamel-friendly whitening gel. Walk out with a confident, radiant smile.',
     image: '/assets/images/tw.png',
-    link: '/teeth-whitening-in-lahore',
+    link: '/',
   },
   {
     title: 'Complete Smile Makeover',
     description:
       'Customize your dream smile with veneers, crowns, and whitening. Our expert team crafts personalized cosmetic plans for stunning transformations.',
     image: '/assets/images/sm.png',
-    link: '/smile-makeover-lahore',
+    link: '/',
   },
   {
     title: 'Porcelain Veneers in Lahore',
     description:
       'Cover chips, gaps, and stains with ultra-thin porcelain shells. Enjoy natural-looking results that last, boosting both function and confidence.',
     image: '/assets/images/v.png',
-    link: '/veneers-in-lahore',
+    link: '/',
   },
   {
     title: 'Tooth-Colored Composite Fillings',
     description:
       'Restore decayed teeth seamlessly with composite resin. Our fillings match your natural enamel for a discreet, durable solution.',
     image: '/assets/images/fil.png',
-    link: '/dental-fillings-in-lahore',
+    link: '/',
   },
   {
     title: 'Same-Day CEREC Crowns & Bridges',
     description:
       'Get custom ceramic crowns or bridges in a single visit. Preserve your smile’s function and aesthetics without multiple appointments.',
     image: '/assets/images/dcb.png',
-    link: '/dental-crowns-bridges-lahore',
+    link: '/',
   },
   {
     title: 'Dental Implants in Lahore',
     description:
       'Replace missing teeth with titanium implants and lifelike crowns. Regain full chewing function and a natural appearance that lasts a lifetime.',
     image: '/assets/images/dental-implants.png',
-    link: '/dental-implants-in-lahore',
+    link: '/',
   },
   {
     title: 'Braces & Clear Aligners',
     description:
       'Straighten teeth with traditional braces or discreet clear aligners. Our orthodontic solutions are tailored for comfort and fast results.',
     image: '/assets/images/braces.png',
-    link: '/braces-aligners-in-lahore',
+    link: '/',
   },
   {
     title: 'Pain-Free Root Canal Therapy',
     description:
       'Save your tooth with modern root canal techniques under local anesthesia. Our gentle approach makes the procedure virtually painless.',
     image: '/assets/images/root-canal.png',
-    link: '/root-canal-treatment-in-lahore',
+    link: '/',
   },
   {
     title: 'Wisdom Tooth Extraction',
     description:
       'Safely remove impacted wisdom teeth using advanced surgical protocols. Recover quickly with minimal discomfort under expert care.',
     image: '/assets/images/wisdom.png',
-    link: '/wisdom-tooth-extraction-in-lahore',
+    link: '/',
   },
   {
     title: 'Pediatric Dentistry in Lahore',
     description:
       'Cultivate healthy habits early with gentle, kid-friendly care. From exams to fluoride, we make every visit fun and stress-free for children.',
     image: '/assets/images/pediatric.png',
-    link: '/pediatric-dentistry-in-lahore',
+    link: '/',
   },
   {
     title: 'Gum Disease & Periodontal Treatment',
     description:
       'Combat gingivitis and periodontitis with scaling, root planing, and laser therapy. Protect your gums and preserve your natural teeth.',
     image: '/assets/images/gum.png',
-    link: '/gum-disease-treatment-in-lahore',
+    link: '/',
   },
   {
     title: 'Emergency Dental Care 24/7',
     description:
       'Immediate relief for toothaches, fractures, and trauma. Our on-call team in Lahore delivers prompt, compassionate emergency treatment anytime.',
     image: '/assets/images/emergency.png',
-    link: '/emergency-dentist-in-lahore',
+    link: '/',
   },
   {
     title: 'Maxillofacial Surgery',
     description:
       'Our specialized surgeons handle complex facial, jaw, and oral surgeries with precision. Experience expert care for trauma, TMJ, and reconstructive needs.',
     image: '/assets/images/max.png',
-    link: '/maxillofacial-surgery-in-lahore',
+    link: '/',
   },
   {
     title: 'TMJ & Jaw Pain Relief',
     description:
       'Alleviate chronic jaw pain and TMJ disorders with customized therapies. From occlusal guards to physiotherapy, find lasting comfort here.',
     image: '/assets/images/jaw.png',
-    link: '/tmj-treatment-in-lahore',
+    link: '/',
   },
   {
     title: 'Zirconia Crown Restorations',
     description:
       'Choose strong, esthetic zirconia crowns for broken or damaged teeth. Enjoy a perfect blend of durability and beauty in every restoration.',
     image: '/assets/images/zirconia1.png',
-    link: '/zirconia-crowns-in-lahore',
+    link: '/',
   },
 ];
 
