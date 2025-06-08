@@ -1,66 +1,55 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { User2, Star } from 'lucide-react';
 
 const testimonials = [
   {
     name: "Rubina Shoaib",
     text: "Care and treatment has always been top- notch. The products used are always the best and techniques are always the latest and advanced. Procedures and options are explained in detail in a friendly comfortable environment. I have been very satisfied on every occasion.",
-    image: "/assets/images/T1.jpg",
   },
   {
     name: "Umar Khan",
     text: "Dr Ibad is a thorough professional and a trusted doctor.",
-    image: "/assets/images/T2.jpg",
   },
   {
     name: "ukasha wajih",
     text: "I know Dr Ibad since the past 13-14 years . He is an amazingly professional person . He knows his work way too well and has great expertise in his field . He is always available , what more can u ask for from a dental doc as all my tooth aches and problems come on Sundays or public holidays 🤣 . He takes care of his patients really well . He is not a commercial dentist who makes u pay for the pain and trauma you are going thru other than the procedures he does . ankhain band ker k bharosa ker leyn .",
-    image: "/assets/images/T3.jpg",
   },
   {
     name: "Muthammir Khawaja",
     text: "One of the best and kind dentist in Lahore.Very reasonable with pricing and experienced",
-    image: "/assets/images/ibrahim.png",
   },
   {
     name: "Tehreem Talat",
     text: "Really satisfied by the work done by Dr Ibad. He is professional dentist and using latest technology ,along with hygiene and friendly environment. Keep it .",
-    image: "/assets/images/urooj.png",
   },
   {
     name: "Sikandar Iqbal",
     text: "Had a number of procedures for myself and family from Dr Ibad, a thorough professional and knowledgeable person. I have recommended him to several others in my circle and all were very happy with his services!",
-    image: "/assets/images/faisal.png",
   },
   {
     name: "Mak Mustang",
     text: "Had a personal experience of the dental treatment.The team is professional and equipped properly alongwith highest standards of hygiene protocols.would recommend highly and vouch for dental dynamics.stay blessed",
-    image: "/assets/images/amir1.png",
   },
   {
     name: "Shahid Rasool",
     text: "Extraordinary satisfaction! Very friendly and experienced doctor. Highly recommended.",
-    image: "/assets/images/shahid.png",
   },
   {
     name: "Farooq Janjua",
     text: "Dr ibad is really professional and loyal dentist who is committed to serve humanity as well as his clients/patients.",
-    image: "/assets/images/nauman.png",
   },
   {
     name: "Hannia Masood",
     text: "Excellent services, hygenic ambience and courteous staff. I walked out as a satisfied customer. They have gotten a client for long.!",
-    image: "/assets/images/areej.png",
   },
   {
     name: "Muhammad Azam Qureshi",
-    text:"It is a clean n hygienic place with the best Doctor who takes his time. My experience was wonderful.",
-    image: "/assets/images/kashif.png",
+    text: "It is a clean n hygienic place with the best Doctor who takes his time. My experience was wonderful.",
   },
   {
     name: "Minna Masood",
     text: "Had a personal experience of the dental treatment.The team is professional and equipped properly alongwith highest standards of hygiene protocols.would recommend highly and vouch for dental dynamics.stay blessed",
-    image: "/assets/images/kiran.png",
   },
 ];
 
@@ -108,23 +97,25 @@ export default function Testimonials() {
                   animate="animate"
                   exit="exit"
                   transition={{ duration: 0.6, ease: "easeOut" }}
-                  className="absolute inset-0 flex items-center justify-center"
+                  className="absolute inset-0 flex flex-col items-center justify-center"
                   role="group"
                   aria-label={`Testimonial from ${t.name}`}
                 >
-                  <blockquote className="bg-white w-full max-w-2xl rounded-3xl shadow-lg p-8 text-left">
-                    <div className="flex items-center mb-6">
-                      <img
-                        src={t.image}
-                        alt={`Photo of ${t.name}`}
-                        className="w-24 h-24 rounded-full object-cover border-2 border-gray-200"
-                        loading="lazy"
-                      />
+                  <blockquote className="bg-gray-50 w-full max-w-2xl rounded-3xl shadow-md p-8 text-left border-2 border-gray-100">
+                    <div className="flex items-center mb-4">
+                      <div className="w-16 h-16 flex items-center justify-center bg-gray-200 rounded-full">
+                        <User2 className="w-8 h-8 text-gray-500" />
+                      </div>
                       <figcaption className="ml-4">
                         <span className="text-xl font-semibold text-gray-900">{t.name}</span>
                       </figcaption>
                     </div>
-                    <p className="text-gray-700 italic text-lg leading-relaxed">{`“${t.text}”`}</p>
+                    <div className="flex justify-start mb-4">
+                      {Array.from({ length: 5 }).map((_, j) => (
+                        <Star key={j} className="w-5 h-5 text-yellow-400" />
+                      ))}
+                    </div>
+                    <p className="text-gray-700 italic text-lg leading-relaxed">“{t.text}”</p>
                   </blockquote>
                 </motion.figure>
               );
@@ -161,8 +152,8 @@ export default function Testimonials() {
           </p>
 
           <div className="rounded-2xl overflow-hidden shadow-lg aspect-video border border-gray-200 mb-8">
-            <video className="w-full h-full" controls poster="/poster.png" aria-label="Smile makeover video testimonial">
-              <source src="smile-journey.mp4" type="video/mp4" />
+            <video className="w-full h-full" controls poster="/poster (2).png" aria-label="Smile makeover video testimonial">
+              <source src="test.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -176,7 +167,8 @@ export default function Testimonials() {
           >
             <strong className="block mb-2 text-gray-900">Transcript:</strong>
             <p className="text-gray-700 leading-relaxed">
-           “I searched everywhere for a <strong>cosmetic dentist in Lahore</strong>, and when I found Dr. Ibad at Dental Dynamics, everything changed. From the initial consultation to the final smile reveal, every step was smooth, professional, and surprisingly comfortable. If you're looking for the <strong>best smile makeover in Lahore</strong>, this is where you go. </p>
+           “I searched everywhere for a <strong>cosmetic dentist in Lahore</strong>, and when I found Dr. Ibad at Dental Dynamics, everything changed. From the initial consultation to the final smile reveal, every step was smooth, professional, and surprisingly comfortable. If you're looking for the <strong>best smile makeover in Lahore</strong>, this is where you go.
+            </p>
           </motion.div>
 
           <motion.a
@@ -192,9 +184,6 @@ export default function Testimonials() {
             Book Your Consultation Now
           </motion.a>
         </motion.div>
-
-      
-
       </div>
     </section>
   );

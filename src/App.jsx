@@ -14,6 +14,7 @@ import TestimonialsA from './components/ApiTestimonial'
 import TopBar from './components/TopBar'
 import AppointmentBanner from './components/Appointmentbanner'
 import DoctorTeethIntro from './components/DTIntro'
+import ImageGrid from './components/Grid'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
 <AppointmentBanner/>
 <DoctorTeethIntro/>
 <FeaturedServices/>
+<ImageGrid/>
 <WhyChooseUs/>
 
 <Testimonials/>
