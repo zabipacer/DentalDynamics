@@ -3,15 +3,15 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ZoomIn, X } from 'lucide-react';
 
 const galleryImages = [
-  { src: '/dental1.jpg', alt: 'Dental Dynamics clinic reception area' },
-  { src: '/dental2.jpg', alt: 'Doctor Ibad performing dental checkup' },
-  { src: '/dental3.jpg', alt: 'Modern dental equipment and tools' },
-  { src: '/dental4.jpg', alt: 'Patient receiving teeth cleaning treatment' },
-  { src: '/dental5.jpg', alt: 'Cosmetic dentistry before and after setup' },
-  { src: '/dental6.jpg', alt: 'Dental Dynamics team collaborating' },
-  { src: '/dental7.jpg', alt: 'Comfortable patient lounge area' },
-  { src: '/dental8.jpg', alt: 'High-tech intraoral scanner in use' },
-  { src: '/dental9.jpg', alt: 'Smiling patient showing dental results' },
+  { src: '/dd1.jpg', alt: 'Dental Dynamics clinic reception area' },
+  { src: '/dd2.jpg', alt: 'Doctor Ibad performing dental checkup' },
+  { src: '/dd3.jpg', alt: 'Modern dental equipment and tools' },
+  { src: '/dd4.jpg', alt: 'Patient receiving teeth cleaning treatment' },
+  { src: '/dd5.jpg', alt: 'Cosmetic dentistry before and after setup' },
+  { src: '/dd6.jpg', alt: 'Dental Dynamics team collaborating' },
+  { src: '/dd7.jpg', alt: 'Comfortable patient lounge area' },
+  { src: '/dd8.jpg', alt: 'High-tech intraoral scanner in use' },
+  { src: '/dd9.jpg', alt: 'Smiling patient showing dental results' },
 ];
 const containerVariants = {
   hidden: {},

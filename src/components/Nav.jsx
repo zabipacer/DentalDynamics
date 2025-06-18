@@ -18,7 +18,7 @@ export const Navbar = () => {
         {/* Logo + Clinic Name */}
         <Link to="/" className="flex items-center gap-4">
           <img
-            src="/logodd.jpg"
+            src="/DentalDynamicsLogo.jpg"
             alt="Doctor Teeth Clinic Logo"
             className="w-12 h-12 rounded-full object-cover"
           />
@@ -37,6 +37,9 @@ export const Navbar = () => {
           </a>
           <a href="/#about" className="hover:text-blue-700 transition">
             About
+          </a>
+        <a href="/booking" className="hover:text-blue-700 transition">
+         Contact us
           </a>
         
          

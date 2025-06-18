@@ -26,6 +26,8 @@ import TMJTreatmentFaisalabad from "./pages/Tmj";
 import DentalCheckupLandingPage from "./pages/DentalCeckup";
 import BlogsPage from "./pages/Blogs";
 import BlogDetailPage from "./pages/BlogDetails";
+import BookAppointment from "./pages/BookAppointment";
+import ServicesPage from "./pages/Servicespage";
 
 const router = createBrowserRouter([
   {
@@ -36,101 +38,14 @@ const router = createBrowserRouter([
         path: "/", // Home route
         element: <App />, // Show App component in the Layout
       },
-  {
-    path: "/scaling-and-polishing-in-lahore", // Home route
-    element: <TeethScalingPolishingPage />, // Show App component in the Layout
-
+ {
+    path:"/booking",
+    element:<BookAppointment/>
   },
-
-  {
-    path: "/Fluoride-Treatment-in-lahore", // Home route
-    element: <FluorideTreatment />, // Show App component in the Layout
-
-  },
-  {
-    path: "/Teeth-whitening-in-lahore", // Home route
-    element: <TeethWhiteningPage />, // Show App component in the Layout
-
-  },
-  {
-    path: "/Smile-Makeoveh", // Home route
-    element: <SmileMakeoverLandingPage />, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/veneers-lahore", // Home route
-    element: <DentalVeneersPage />, // Show App component in the Layout
-
-  },
-  {
-    path: "/Dental-Fillings-lahore", // Home route
-    element: <DentalFillingsLandingPage />, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/Dental-Crown-Bridges-lahore", // Home route
-    element: <DentalCrownsBridgesLandingPage />, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/Dental-implants-lahore", // Home route
-    element: <DentalImplantsLandingPage />, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/braces-aligners-lahore", // Home route
-    element: <BracesAndAlignersLandingPage/>, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/root-canal-lahore", // Home route
-    element: <RootCanalLandingPage/>, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/wisdom-tooth-extraction", // Home route
-    element: <WisdomToothExtractionLandingPage/>, // Show App component in the Layout
-
-  },
-  {
-    path: "/kids-dentist-lahore", // Home route
-    element: <PediatricDentistryLandingPage/>, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/gum-disease-treatment", // Home route
-    element: <GumDiseaseTreatment/>, // Show App component in the Layout
-
-  },
-  {
-    path: "/emergency-dentist-lahore", // Home route
-    element: <EmergencyDentistFaisalabad/>, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/maxillofacial-surgery", // Home route
-    element: <MaxillofacialSurgeryFaisalabad/>, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/tmj-treatment-lahore", // Home route
-    element: <TMJTreatmentFaisalabad/>, // Show App component in the Layout
-
-  }, 
-  {
-    path: "/dental-checkup-lahore", // Home route
-    element: <DentalCheckupLandingPage/>, // Show App component in the Layout
-
-  },
-  {
-    path: "/blogs1", // Home route
-    element: <BlogsPage/>, // Show App component in the Layout
-
-  },
-  {
-    path:"/blogs/:id/:slug",
-    element:<BlogDetailPage/>
-  }  // Add more routes here as needed
+   {
+    path:"/services",
+    element:<ServicesPage/>
+  }   // Add more routes here as needed
     ],
   },
 ]);

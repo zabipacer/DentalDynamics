@@ -65,9 +65,14 @@ const DoctorTeethIntro = () => {
           transition={{ duration: 0.6, delay: 0.5, ease: 'easeOut' }}
           viewport={{ once: true, amount: 0.8 }}
         >
-          Dental Dynamics is now accepting new patients! We’re open on evenings and weekends to fit your busy schedule.
+          Dental Dynamics is now accepting new patients! <br/> <br/> We’re open on evenings and weekends to fit your busy schedule.
+          Timings 
+Monday - Saturday
+4pm-9pm
+24 hours available on WhatsApp / Call
+24 hours Emergency services available
           <br />
-          <a href="https://wa.me/923008444631" className="underline hover:text-yellow-300">
+          <a href="/booking" className="underline hover:text-yellow-300">
             Contact us today to book your first appointment.
           </a>
         </motion.p>

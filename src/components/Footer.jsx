@@ -28,8 +28,8 @@ const Footer = () => {
           </p>
           <p className="text-sm flex items-center gap-2">
             <FaEnvelope className="text-gray-700" />
-            <a href="mailto:info@dentaldynamics.pk" className="hover:underline">
-              info@dentaldynamics.pk
+            <a href="mailto:Dentaldynamicspakistan@gmail.com" className="hover:underline">
+              Dentaldynamicspakistan@gmail.com
             </a>
           </p>
         </div>

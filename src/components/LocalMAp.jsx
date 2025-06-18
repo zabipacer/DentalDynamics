@@ -57,14 +57,16 @@ const LocalSEOSection = () => {
             <strong>Service Areas:</strong> Bank Square Market, Block C,
             Model Town, Batapur, Gulberg, and surrounding neighborhoods.
           </p>
-          <a
-            href="https://g.co/kgs/eZSVfb5"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-4 px-6 py-3 bg-gray-700 text-white rounded-lg shadow hover:bg-gray-800 transition duration-300"
-          >
-            Need Directions? Open in Google Maps
-          </a>
+<a
+  href="https://g.co/kgs/eZSVfb5"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-4 px-6 py-3 bg-gray-700 text-white rounded-lg shadow hover:bg-gray-800 transition duration-300"
+>
+  Need Directions? Open in Maps
+</a>
+
+
         </div>
 
         {/* Structured Data for SEO */}
