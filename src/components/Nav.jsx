@@ -18,7 +18,7 @@ export const Navbar = () => {
         {/* Logo + Clinic Name */}
         <Link to="/" className="flex items-center gap-4">
           <img
-            src="/DentalDynamicsLogo.jpg"
+            src="/shlogo.jpg"
             alt="Doctor Teeth Clinic Logo"
             className="w-12 h-12 rounded-full object-cover"
           />

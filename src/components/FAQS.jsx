@@ -6,9 +6,9 @@ const faqs = [
     question: 'What is the cost of dental implants in Lahore?',
     answer: (
       <>
-        At Dental Dynamics Dental Clinic in Lahore, the cost of a single dental implant typically ranges from PKR 45,000 to PKR 85,000, depending on the implant system and any bone grafting required. For full details and package pricing, please visit our{' '}
+        At Dental Dynamics Dental Clinic in Lahore, the cost of a single dental implant typically ranges from PKR 150,000 to PKR 185,000, depending on the implant system and any bone grafting required. For full details and package pricing, please visit our{' '}
         <Link
-          to="/dental-implants-lahore"
+          to="/services"
           className="text-blue-700 underline hover:text-blue-900 transition-colors duration-200"
         >
           Dental Implants in Lahore

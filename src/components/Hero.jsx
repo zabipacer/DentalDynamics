@@ -16,7 +16,7 @@ const slides = [
   {
     title: "Perfect Smile Journey: Braces & Aligners",
     text: "Lahore's #1 Invisible Orthodontics. Get camera-ready confidence with our discreet alignment systems.",
-    cta: "View Smile Gallery",
+    cta: "Book an appointment",
     image: "good.jpg",
     mobileImage: "dd1.jpg",
     schemaType: "MedicalProcedure",
@@ -25,7 +25,7 @@ const slides = [
   {
     title: "Advanced Root Canal Therapy",
     text: "Save your natural teeth with our painless technology. 98% success rate with permanent results.",
-    cta: "Download Price List",
+    cta: "Book an appointment",
     image: "good.jpg",
     mobileImage: "dd1.jpg",
     schemaType: "MedicalProcedure",
@@ -228,7 +228,7 @@ export default function HeroSection() {
               >
                 {/* Primary CTA */}
                 <a
-                  href={`https://wa.me/${phoneNumber}`}
+                  href={`/booking`}
                   className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
                   aria-label="Book appointment via WhatsApp"
                 >

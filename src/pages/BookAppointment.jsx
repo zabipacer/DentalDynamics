@@ -25,51 +25,69 @@ export default function BookAppointment() {
             booking your appointment takes just a moment.
           </p>
 
-          <form className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium">Full Name</label>
-              <input
-                type="text"
-                placeholder="John Doe"
-                className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
-              />
-            </div>
+       <form method="post" action="https://formsubmit.co/dentaldynamics@gmail.com" className="space-y-4">
+  <div>
+    <label className="block text-sm font-medium">Full Name</label>
+    <input
+      type="text"
+      name="Full Name"
+      placeholder="John Doe"
+      required
+      className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+    />
+  </div>
 
-            <div>
-              <label className="block text-sm font-medium">Email Address</label>
-              <input
-                type="email"
-                placeholder="you@example.com"
-                className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
-              />
-            </div>
+  <div>
+    <label className="block text-sm font-medium">Phone Number</label>
+    <input
+      type="tel"
+      name="Phone Number"
+      placeholder="+92 300 1234567"
+      required
+      className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+    />
+  </div>
 
-            <div>
-              <label className="block text-sm font-medium">Preferred Date & Time</label>
-              <input
-                type="datetime-local"
-                className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
-              />
-            </div>
+  <div>
+    <label className="block text-sm font-medium">Email Address (Optional)</label>
+    <input
+      type="email"
+      name="Email"
+      placeholder="you@example.com"
+      className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+    />
+  </div>
 
-            <div>
-              <label className="block text-sm font-medium">Your Concern (Optional)</label>
-              <textarea
-                rows={3}
-                placeholder="Tell us about your dental needs..."
-                className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
-              ></textarea>
-            </div>
+  <div>
+    <label className="block text-sm font-medium">Preferred Date & Time</label>
+    <input
+      type="datetime-local"
+      name="Appointment Date & Time"
+      required
+      className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+    />
+  </div>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-xl shadow-md transition"
-            >
-              Confirm Appointment
-            </motion.button>
-          </form>
-        </div>
+  <div>
+    <label className="block text-sm font-medium">Your Concern (Optional)</label>
+    <textarea
+      name="Concern"
+      rows={3}
+      placeholder="Tell us about your dental needs..."
+      className="mt-1 w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+    ></textarea>
+  </div>
+
+  <motion.button
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-xl shadow-md transition"
+  >
+    Confirm Appointment
+  </motion.button>
+</form>
+
+ </div>
       </motion.div>
     </div>
   );
