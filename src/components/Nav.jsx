@@ -20,7 +20,7 @@ export const Navbar = () => {
           <img
             src="/logodentaldynamic.jpg"
             alt="Doctor Teeth Clinic Logo"
-            className="w-12 h-12 rounded-full object-cover"
+            className=" h-17 rounded-full object-cover"
           />
           <span className="text-xl sm:text-2xl  text-green-800 font-extrabold ">
             Dental Dynamics
